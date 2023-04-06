@@ -1,0 +1,65 @@
+body {
+    background: #1d2630;
+}
+
+* {
+    color: white;
+}
+
+#Update {
+    display: none;
+}
+
+option {
+    color: black;
+}
+
+.logout {
+    margin-left: 70%;
+    margin-top: 20px;
+}
+
+#pUser {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#leaderBoard,
+#downloadExpense {
+    display: none;
+}
+
+#pagination {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.pageNumber {
+    border-radius: 50%;
+    color: black;
+    /* background-color: red; */
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#pagination li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#pagination li a {
+    text-decoration: none;
+    color: black;
+}
+
+.pageNumber.active {
+    background-color: red;
+    color: white;
+}
+
+#rows {
+    color: red;
+}
